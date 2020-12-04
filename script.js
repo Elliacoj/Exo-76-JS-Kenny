@@ -20,7 +20,7 @@ document.getElementById('up').addEventListener('click',up);
 document.body.addEventListener("keypress", up);
 
 function up (eventTop) {
-    if((eventTop.key) === "z" || eventTop.type === "click") {
+    if(eventTop.key === "z" || eventTop.type === "click") {
         let t = parseInt(kenny.style.top);
         if((parseInt(kenny.style.left) <= 50) && (parseInt(kenny.style.top) <= 50)) {
             alert("vous êtes mort!!!!");
@@ -41,7 +41,7 @@ document.getElementById('left').addEventListener('click',left);
 document.body.addEventListener("keypress", left);
 
 function left (eventLeft) {
-    if((eventLeft.key) === "q" || eventLeft.type === "click") {
+    if(eventLeft.key === "q" || eventLeft.type === "click") {
         let l = parseInt(kenny.style.left);
         if((parseInt(kenny.style.left) <= 50) && (parseInt(kenny.style.top) <= 50)) {
             alert("vous êtes mort!!!!");
@@ -62,7 +62,7 @@ document.getElementById('right').addEventListener('click',right);
 document.body.addEventListener("keypress", right);
 
 function right (eventRight) {
-    if((eventRight.key) === "d" || eventRight.type === "click") {
+    if(eventRight.key === "d" || eventRight.type === "click") {
         let r = parseInt(kenny.style.left);
         if((parseInt(kenny.style.left) <= 50) && (parseInt(kenny.style.top) <= 50)) {
             alert("vous êtes mort!!!!");
@@ -83,7 +83,7 @@ document.getElementById('down').addEventListener('click',bottom);
 document.body.addEventListener("keypress", bottom);
 
 function bottom (eventDown) {
-    if((eventDown.key) === "s" || eventDown.type === "click") {
+    if(eventDown.key === "s" || eventDown.type === "click") {
         let d = parseInt(kenny.style.top);
         if((parseInt(kenny.style.left) <= 50) && (parseInt(kenny.style.top) <= 50)) {
             alert("vous êtes mort!!!!");
